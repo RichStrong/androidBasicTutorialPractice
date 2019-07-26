@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">listenerTest</string>
+
+    <string name="btnTestTxt">按钮1</string>
+    <string name="btnTest2Txt">按钮2</string>
+    <string name="btnTest3Txt">按钮3</string>
+    <string name="btnTest4Txt">按钮4</string>
+    <string name="btnTest5Txt">按钮5</string>
+
+    <string name="toastMsg1">你点击了按钮1,使用匿名内部类实现</string>
+    <string name="toastMsg2">你点击了按钮2，使用内部类实现</string>
+    <string name="toastMsg3">你点击了按钮3，使用外部类实现</string>
+    <string name="toastMsg4">你点击了按钮4，使用activity实现</string>
+    <string name="toastMsg5">你点击了按钮5，直接绑定到标签</string>
+</resources>

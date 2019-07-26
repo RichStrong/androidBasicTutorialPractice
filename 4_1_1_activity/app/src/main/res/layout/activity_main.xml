@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ADFF2F"
+            android:gravity="center"
+            android:text="打电话"/>
+
+        <Button
+            android:id="@+id/btnSms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DA70D6"
+            android:gravity="center"
+            android:text="发短信"/>
+
+        <Button
+            android:id="@+id/btnMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="发彩信"/>
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

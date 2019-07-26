@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00CCCCFF"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_centerInParent="true"
+        android:src="@drawable/alipay"
+        android:background="#777777"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:id="@+id/close"
+        android:src="@drawable/m"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignRight="@id/add"
+        android:layout_alignTop="@id/add"
+        android:layout_marginTop="-15dp"
+        android:layout_marginRight="-15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--中央-->
+    <ImageView
+        android:id="@+id/m"
+        android:src="@drawable/m"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--下面-->
+    <ImageView
+        android:id="@+id/b"
+        android:src="@drawable/b"
+        android:layout_below="@+id/m"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/u"
+        android:src="@drawable/u"
+        android:layout_above="@id/m"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/l"
+        android:src="@drawable/l"
+        android:layout_toLeftOf="@+id/m"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/r"
+        android:src="@drawable/r"
+        android:layout_toRightOf="@id/m"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnTest1"
+        android:layout_below="@id/b"
+        android:layout_centerHorizontal="true"
+        android:text="Margin和Padding比较"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
