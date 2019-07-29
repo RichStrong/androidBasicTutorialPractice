@@ -8,5 +8,9 @@ www.runoob.com的Android 基础入门教程练习工程代码
 - 3_2_callback：3.2章节基于回调机制的事件处理机制
 - 3_3_handler:3.3章节将handler写在主线程中的用法
 - 3_3_handler2：3.3章节将handler写在子线程中的用法，又将子线程中的结果又传到主线程handler进行显示
+- 3_4_TouchListener_OnTouchEvent:3.4章节touch listener用法
+- 3_4_onTouchEvent：3.4章节touch event的用法
+- 3_4_multiTouch：3.4章节多点触摸，拖拉移动和放大
 - 4_1_1_activity：4.1.1章节的activity初学咋练
+- 
 
